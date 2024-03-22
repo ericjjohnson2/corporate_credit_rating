@@ -51,15 +51,18 @@ The project aims to leverage data analysis techniques to extract meaningful insi
      - Model 1: Loss - 0.636, Accuracy - 0.667
      - Model 2: Loss - 0.490, Accuracy - 0.791
      - Model 3: Loss - 0.439, Accuracy - 0.797
-![deeplearning](img/models/deeplearning)
 
-4. **Random Forest Model for Credit Rating Forecasting:**
+   ![deeplearning](img/models/deeplearning)
+  
+
+
+5. **Random Forest Model for Credit Rating Forecasting:**
    - A Random Forest Classifier model was employed to forecast credit ratings based on a curated dataset.
    - Data preprocessing involved loading and cleaning data, extracting essential features, and incorporating dummy variables for categorical data representation.
    - The dataset was split into training and testing sets, and standard scaling was applied for consistent feature scaling.
    - A Random Forest Classifier with 500 decision trees was trained on the scaled data to capture complex relationships.
 
-5. **Model Evaluation and Feature Importance Analysis:**
+6. **Model Evaluation and Feature Importance Analysis:**
    - The model's performance was evaluated using standard metrics such as confusion matrix, accuracy score, and classification report.
    - Additionally, a feature importance analysis was conducted to identify the significant contributors to credit rating prediction.
 
