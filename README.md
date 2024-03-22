@@ -32,7 +32,7 @@ The objective of Project 4 is to collaboratively solve, analyze, or visualize a 
 **Overview:**
 
 **Introduction:**
-The project aims to leverage data analysis techniques to extract meaningful insights and predict credit ratings for corporations. By utilizing a dataset sourced from Kaggle, the group intends to preprocess the data meticulously before applying various machine learning models for predictive analysis. The models will undergo optimization and evaluation to ensure accuracy and reliability in predicting credit ratings.
+The project aims to leverage data analysis techniques to extract meaningful insights and predict credit ratings for corporations to assist in investment decisions. By utilizing a dataset sourced from Kaggle, the group intends to preprocess the data meticulously before applying various machine learning models for predictive analysis. The models will undergo optimization and evaluation to ensure accuracy and reliability in predicting credit ratings.
 
 **Project Details:**
 
