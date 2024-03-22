@@ -52,7 +52,7 @@ The project aims to leverage data analysis techniques to extract meaningful insi
      - Model 2: Loss - 0.490, Accuracy - 0.791
      - Model 3: Loss - 0.439, Accuracy - 0.797
 
-   ![deeplearning](img/models/deeplearning.png)
+   ![deeplearning](img/models/deeplearning/model1_plot.png)
 
 5. **Random Forest Model for Credit Rating Forecasting:**
    - A Random Forest Classifier model was employed to forecast credit ratings based on a curated dataset.
