@@ -60,7 +60,9 @@ The project aims to leverage data analysis techniques to extract meaningful insi
    - The dataset was split into training and testing sets, and standard scaling was applied for consistent feature scaling.
    - A Random Forest Classifier with 500 decision trees was trained on the scaled data to capture complex relationships.
   
-     ![random_forest](img/models/random_forest/image (4).png)
+     
+     ![randomforest](img/models/random_forest/image%20(4).png)
+
 
 6. **Model Evaluation and Feature Importance Analysis:**
    - The model's performance was evaluated using standard metrics such as confusion matrix, accuracy score, and classification report.
