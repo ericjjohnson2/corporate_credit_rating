@@ -1,0 +1,107 @@
+html {
+  background-color: #F2EFDF;
+}
+
+body {
+  background-color: #D0D9D4;
+  border-radius: 12px;
+}
+
+#map-id {
+  height: 85%;
+  padding: 20px;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* help setting the background color of the legend here: https://codepen.io/haakseth/pen/KQbjdO */
+.legend {
+  height: 200px;
+  width: 140px;
+  line-height: 16px;
+  word-wrap: break-word;
+  color: #000000;
+  background: white;
+  padding: 0px 8px;
+}
+
+
+.legend i {
+  width: 18px;
+  height: 12px;
+  float: left;
+  margin-right: 8px;
+  opacity: 1;
+}
+
+#pygwalker {
+  padding: 20px;
+}
+
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 2fr 4fr 4fr 6fr; 
+  gap: 15px 15px; 
+  grid-template-areas: 
+    "Header Header"
+    "item-one item-two"
+    "map map"
+    "map map"; 
+}
+
+.Header { 
+  grid-area: Header; 
+  text-align: center;
+}
+
+.item-one { 
+  padding: 10px;
+  grid-area: item-one; 
+  text-align: left;
+  background-color: #AEBFBE;
+  border-radius: 12px;
+}
+
+.item-two { 
+  padding: 10px;
+  grid-area: item-two; 
+  text-align: right;
+  background-color: #AEBFBE;
+  border-radius: 12px;
+}
+
+.map { 
+  grid-area: map; 
+}
+
+.code-snippet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 20px;
+}
+
+.directory {
+  /* background-color: #AEBFBE; */
+  font-size: large;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  /* border-radius: 12px; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  padding: 10px;
+}
