@@ -40,6 +40,8 @@ The project aims to leverage data analysis techniques to extract meaningful insi
    - A robust dataset comprising over 7000 records was sourced from Kaggle.
    - The data was loaded into a database using Python Pandas, followed by SQL queries for data retrieval.
    - Cleaning and preprocessing involved dropping unnecessary columns and identifying significant metrics for analysis.
+  
+     ![binaryimage](img/agencies/RatingAgency.png)
 
 2. **Initial Attempts:**
    - Initially, deep learning techniques were explored; however, encountered roadblocks due to overfitting and imbalanced data.
@@ -61,7 +63,8 @@ The project aims to leverage data analysis techniques to extract meaningful insi
    - A Random Forest Classifier with 500 decision trees was trained on the scaled data to capture complex relationships.
   
      
-     ![randomforest](img/models/random_forest/image%20(4).png)
+     ![binaryimage](img/agencies/RatingAgency.png)
+
 
 
 6. **Model Evaluation and Feature Importance Analysis:**
