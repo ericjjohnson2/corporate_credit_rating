@@ -63,7 +63,8 @@ The project aims to leverage data analysis techniques to extract meaningful insi
    - A Random Forest Classifier with 500 decision trees was trained on the scaled data to capture complex relationships.
   
      
-     ![binaryimage](img/agencies/RatingAgency.png)
+     ![randomforest](img/models/random_forest/image%20(4).png)
+
 
 
 
