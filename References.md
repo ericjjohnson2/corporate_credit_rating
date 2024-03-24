@@ -1,4 +1,4 @@
-##**Project 4, Group 3 References**
+## **Project 4, Group 3 References**
 
 
 https://www.alphavantage.co/documentation/
