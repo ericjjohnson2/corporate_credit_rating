@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "rect"}, "encoding": {"color": {"field": "Count", "scale": {"scheme": "blues"}, "type": "quantitative"}, "tooltip": [{"field": "Actual", "type": "nominal"}, {"field": "Predicted", "type": "nominal"}, {"field": "Count", "type": "quantitative"}], "x": {"field": "Predicted", "type": "nominal"}, "y": {"field": "Actual", "type": "nominal"}}, "title": "Confusion Matrix"}, {"mark": {"type": "text", "baseline": "middle"}, "encoding": {"color": {"field": "Count", "scale": {"scheme": "blues"}, "type": "quantitative"}, "text": {"field": "Count", "type": "quantitative"}, "tooltip": [{"field": "Actual", "type": "nominal"}, {"field": "Predicted", "type": "nominal"}, {"field": "Count", "type": "quantitative"}], "x": {"field": "Predicted", "type": "nominal"}, "y": {"field": "Actual", "type": "nominal"}}, "title": "Confusion Matrix"}], "data": {"name": "data-f6bf75201e46c9f230847c4d2d9dc873"}, "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json", "datasets": {"data-f6bf75201e46c9f230847c4d2d9dc873": [{"Actual": "Actual 0", "Predicted": "Predicted 0", "Count": 453}, {"Actual": "Actual 0", "Predicted": "Predicted 1", "Count": 197}, {"Actual": "Actual 1", "Predicted": "Predicted 0", "Count": 84}, {"Actual": "Actual 1", "Predicted": "Predicted 1", "Count": 1218}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
