@@ -63,11 +63,13 @@ The project aims to leverage data analysis techniques to extract meaningful insi
    - A Random Forest Classifier with 500 decision trees was trained on the scaled data to capture complex relationships.
   
      
-      ![randomforest](img/models/random_forest/model5_confusion_matrix.png)
+      ![Random Forest Confusion Matrix](img/models/random_forest/model5_confusion_matrix.png)
 
-      ![randomforest](img/models/random_forest/model5_importances_plot.png)
+      ![Random Forest Importances Plot](img/models/random_forest/model5_importances_plot.png)
 
+      ![Random Forest ROC Curve](img/models/random_forest/model5_roc_curve.png)
 
+      [PDF Example of a Random Tree in Our Model](img/models/random_forest/model5_random_tree.pdf)
 
 6. **Model Evaluation and Feature Importance Analysis:**
    - The model's performance was evaluated using standard metrics such as confusion matrix, accuracy score, and classification report.
@@ -80,8 +82,11 @@ The project aims to leverage data analysis techniques to extract meaningful insi
      ![preview](img/preview.gif)
 
 
-**Conclusion:**
-By leveraging advanced machine learning techniques and meticulous data preprocessing, the Random Forest model provides a reliable approach to forecast credit ratings. This model can assist financial institutions and analysts in making informed decisions and effectively managing credit risk.
+## **Conclusion:**
+The application of machine learning has yielded encouraging outcomes. Through experimentation with various models, some patterns have emerged: certain models excel in predicting positive outcomes, while others are proficient in identifying negative outcomes. The random forest models are the top performers with 95% accuracy rate on this test dataset.
 
+However, during deployment in real-world scenarios, particularly in predicting junk credit status (S&P BB+ or lower), challenges arose. Despite techniques like oversampling and undersampling to address class imbalances, the models struggled to accurately identify instances of junk credit. They did however exhibit consistent success in predicting good credit status.
+
+To enhance model performance, alternative methods were explored such as k-folding and feature engineering. One notable limitation was the absence of industry sector information in our API. This was available in training and testing datasets, and when utilized the model performance improved. But these features were dropped due to constraints in the API's data retrieval capabilities. It is evident that incorporating industry sector data could significantly enhance prediction accuracy.
 
 

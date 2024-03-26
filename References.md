@@ -1,9 +1,20 @@
 ## **Project 4, Group 3 References**
 
+"Designing Machine Learning Systems" by Chip Huyen - O'Reilly Press
+
+"Practical Statistics for Data Scientists" by Peter Bruce, Andrew Bruce, & Peter Gedeck - O'Reilly Press
 
 https://www.alphavantage.co/documentation/
 
 https://stackoverflow.com/questions/36814100/pandas-to-numeric-for-multiple-columns
+
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html#sklearn-model-selection-stratifiedkfold
+
+https://www.geeksforgeeks.org/stratified-k-fold-cross-validation/
+
+https://towardsdatascience.com/what-is-stratified-cross-validation-in-machine-learning-8844f3e7ae8e
+
+https://github.com/mwaskom/seaborn/issues/3478
 
 https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html
 
@@ -31,51 +42,40 @@ https://www.youtube.com/watch?v=YUsx5ZNlYWc
 
 https://www.youtube.com/watch?v=VtchVpoSdoQ&t=582s
 
-# Current ratio = totalCurrentAssets / totalCurrentLiabilities
-    # Reference: https://www.investopedia.com/terms/c/currentratio.asp
+### **References for Financial Caluclations:**
+https://www.investopedia.com/terms/c/currentratio.asp
     
-# Long-term Debt / Capital = longTermDebt / (longTermDebt + totalShareholderEquity)
-    # Reference: https://www.investopedia.com/terms/l/longtermdebt-capitalization.asp *Preferred stock doesn't appear to be available on Alpha Vantage and isn't always issued
+https://www.investopedia.com/terms/l/longtermdebt-capitalization.asp 
     
-# Debt/Equity Ratio = totalLiabilities / totalShareholderEquity
-    # Reference: https://www.investopedia.com/terms/d/debtequityratio.asp
+https://www.investopedia.com/terms/d/debtequityratio.asp
     
-# Gross Margin = 100 × (totalRevenue - costofGoodsAndServicesSold) / totalRevenue
-    # Reference: https://www.investopedia.com/terms/g/grossmargin.asp, https://www.omnicalculator.com/finance/margin#gross-margin-formula
+https://www.investopedia.com/terms/g/grossmargin.asp
+
+https://www.omnicalculator.com/finance/margin#gross-margin-formula
     
-# Operating Margin = operatingIncome / totalRevenue
-    # Reference: https://www.investopedia.com/terms/o/operatingmargin.asp
+https://www.investopedia.com/terms/o/operatingmargin.asp
     
-# EBIT Margin: ((totalRevenue - costofGoodsAndServicesSold - operatingExpenses) / totalRevenue) * 100
-    # Reference: https://www.investopedia.com/terms/e/ebit.asp
+https://www.investopedia.com/terms/e/ebit.asp
     
-# EBITDA Margin: (incomeBeforeTax + depreciationAndAmortization) / totalRevenue
-    # Reference: https://www.investopedia.com/terms/e/ebitda-margin.asp
+https://www.investopedia.com/terms/e/ebitda-margin.asp
     
-# Pre-Tax Profit Margin: (incomeBeforeTax / totalRevenue) * 100
-    # Reference: https://www.investopedia.com/terms/p/pretax-margin.asp
+https://www.investopedia.com/terms/p/pretax-margin.asp
     
-# Net Profit Margin: (netIncome / totalRevenue) * 100
-    # Reference: https://www.investopedia.com/terms/n/net_margin.asp
+https://www.investopedia.com/terms/n/net_margin.asp
+        
+https://www.investopedia.com/terms/r/returnonequity.asp
     
-# Asset Turnover Ratio: totalRevenue / ((totalAssets + totalAssetsPrevious) / 2)
-    # totalAssetsPrevious: totalAssets(from preYear) [1] = previous year
+https://www.wallstreetprep.com/knowledge/return-on-tangible-equity-rote/
     
-# ROE - Return On Equity: netIncome / ((totalShareholderEquity(curYear) + totalShareholderEquity(preYear)) / 2)
-    # Reference: https://www.investopedia.com/terms/r/returnonequity.asp
+https://www.investopedia.com/terms/r/returnonassets.asp
     
-# Return On Tangible Equity: netIncome / (avgShareholderEquity - intangibleAssets)
-    # Reference: https://www.wallstreetprep.com/knowledge/return-on-tangible-equity-rote/
+https://www.wallstreetprep.com/knowledge/return-on-equity-roe/
+
+https://www.investopedia.com/terms/r/returnoninvestment.asp
     
-# ROA - Return On Assets: netIncome / totalAssets
-    # Reference: https://www.investopedia.com/terms/r/returnonassets.asp
+https://www.investopedia.com/terms/c/cashflowpershare.asp
+
+https://www.wallstreetprep.com/knowledge/cash-flow-per-share/
     
-# ROI - Return On Investment: (netIncome / ((totalShareholderEquity(curYear) + totalShareholderEquity(preYear)) / 2)) * 100
-    # Reference: https://www.wallstreetprep.com/knowledge/return-on-equity-roe/, https://www.investopedia.com/terms/r/returnoninvestment.asp
-    
-# Operating Cash Flow Per Share: operatingCashflow / commonStockSharesOutstanding
-    # Reference: https://www.investopedia.com/terms/c/cashflowpershare.asp, https://www.wallstreetprep.com/knowledge/cash-flow-per-share/
-    
-# Free Cash Flow Per Share: (operatingCashflow - capitalExpenditures) / commonStockSharesOutstanding
-    # Reference: https://www.investopedia.com/terms/f/freecashflowpershare.asp
+https://www.investopedia.com/terms/f/freecashflowpershare.asp
     
