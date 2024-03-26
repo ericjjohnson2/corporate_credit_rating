@@ -84,4 +84,4 @@ The project aims to leverage data analysis techniques to extract meaningful insi
 By leveraging advanced machine learning techniques and meticulous data preprocessing, the Random Forest model provides a reliable approach to forecast credit ratings. This model can assist financial institutions and analysts in making informed decisions and effectively managing credit risk.
 
 
-**References:**
+
