@@ -42,6 +42,8 @@ https://www.youtube.com/watch?v=YUsx5ZNlYWc
 
 https://www.youtube.com/watch?v=VtchVpoSdoQ&t=582s
 
+https://stackoverflow.com/questions/25009284/how-to-plot-roc-curve-in-python
+
 ### **References for Financial Caluclations:**
 https://www.investopedia.com/terms/c/currentratio.asp
     
