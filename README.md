@@ -22,7 +22,7 @@ The objective of Project 4 is to collaboratively solve, analyze, or visualize a 
    - Tableau
 
 **Group Details:**
-- Group 3 Members: Mitchell Lor, Waynei Mebrahtu, Eric Johnson, Lucinda Hodgson
+- Group 3 Members: Mitchell Lor, Frewoini Mebrahtu, Eric Johnson, Lucinda Hodgson
 
 **Project Title:** Predicting Corporate Credit Ratings
 
