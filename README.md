@@ -1,25 +1,4 @@
 # corporate_credit_risk
-**Project 4 Description**
-
-**Objective:**
-The objective of Project 4 is to collaboratively solve, analyze, or visualize a problem using machine learning (ML) techniques along with other relevant technologies. The project requirements are outlined below:
-
-**Requirements:**
-1. Identify a problem that warrants solving, analysis, or visualization.
-2. Utilize machine learning (ML) techniques, incorporating the technologies covered in the course.
-3. Mandatory usage of Scikit-learn or another machine learning library.
-4. Employ a dataset containing a minimum of 100 records.
-5. Use at least two of the following technologies:
-   - Python Pandas
-   - Python Matplotlib
-   - HTML/CSS/Bootstrap
-   - JavaScript Plotly
-   - JavaScript Leaflet
-   - SQL Database
-   - MongoDB Database
-   - Google Cloud SQL
-   - Amazon AWS
-   - Tableau
 
 **Group Details:**
 - Group 3 Members: Mitchell Lor, Frewoini Mebrahtu, Eric Johnson, Lucinda Hodgson
